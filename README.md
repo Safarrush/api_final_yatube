@@ -22,22 +22,22 @@ Python 3.7, Django 2.2, Django REST Framework 3.12, Pillow 8.3, Requests 2.26, T
 
 ### 2) Создать и активировать виртуальное окружение для проекта
 ```
-PY -m venv venv
+python3 -m venv venv
 source venv/scripts/activate
 ```
 ### 3) Установить зависимости из файла requirements.txt:
 ```
-PY -m pip install --upgrade pip
-PY pip install -r requirements.txt
+python3 -m pip install --upgrade pip
+python3 pip install -r requirements.txt
 ```
 ### 4) Сделать миграции
 ```
-PY manage.py makemigrations
-PY manage.py migrate
+python3 manage.py makemigrations
+python3 manage.py migrate
 ```
 ### 5) Запустить сервер
 ```
-PY manage.py runserver
+python3 manage.py runserver
 ```
 ## Примеры
 
